@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+</head>
+<body>
+    <footer class="register_title"><H1>Chipta uchun registratsya</H1></footer>
+    <footer class="register__register">
+    <form action="/server.php" method="get">
+        <label for="username">F.I.SH:</label>
+        <input type="text" name="username" id="username"><br><br>
+        <label for="password">Paroliingiz:</label>
+        <input type="password" name="password" id="password"><br><br>
+        <label for="email">Emailingiz:</label>
+        <input type="email" name="email" id="email"><br><br>
+        <label for="sana">Tug'ulgan sanangiz:</label>
+        <input type="date" name="sana" id="sana"><br><br>
+        <label for="talaba">Talaba</label>
+        <input type="checkbox" name="talaba" id="talaba"><br><br>
+        <label for="erkak">Erkak</label>
+        <input type="radio" name="gender" value="male">
+        <label for="ayol">Ayol</label>
+        <input type="radio" name="gender" value="famale"><br><br>
+        <label for="passport">Passportingiz:</label>
+        <input type="file" name="passport" id="passport"><br><br>
+        <label for="sayr">Oldin sayrga chiqqanmisiz?</label>
+        <select name="experience" id="sayr"><br><br>
+            <option value="1">Yo'q birinchi martda.</option>
+            <option value="2">Ha, 1 martda</option>
+            <option value="3">Ha, 2-5 martda</option>
+            <option value="4">Ha, ko'p martda</option>
+        </select><br><br>
+        <button type="submit">Register</button><br><br>
+        
+    </form>
+    <a class="register__register-btn" href="../index.html">Bosh sahifaga qaytish</a>
+
+</footer>
+</body>
+</html>

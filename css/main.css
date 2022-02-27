@@ -9,7 +9,6 @@ html{
     scroll-behavior: smooth;
 }
 body{
-   
     height: 100%;
     font-family: 'IM Fell English', serif;
     font-size: 16px;
@@ -22,31 +21,41 @@ body{
 
 .header {
     width: 100%;
-    height: 70%;
+    height: 90%;
     color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('../images/пляж.jpeg');
+    background-image: url('../images/photo-1488462237308-ecaa28b729d7.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:center;
-    
+    background-position: bottom;
+    background-attachment: fixed;
+}
+.header_title-two {
+    font-family: 'Shippori Antique B1', sans-serif;
+    margin-bottom: 20px;
+}
+.header_title-two-one {
 }
 .header_title {
     font-size: 42px;
-    font-family: 'IM Fell English', 'Arial', serif;
+    font-family: 'Dancing Script', cursive;
     margin-bottom: 30px;
 
 }
 .header__text {
     font-size: 20px;
     margin-bottom: 20px;
+    font-family: 'Cookie', cursive;
+    letter-spacing: 2px;
+    word-spacing: 1.15px;
 }
     
-    .header__btn {background-image: linear-gradient(to right, #603813 0%, #b29f94  51%, #603813  100%)}
-    .header__btn {
+    
+.header__btn {background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6  51%, #2BC0E4  100%)}
+.header__btn {
     margin: 10px;
     padding: 15px 45px;
     text-align: center;
@@ -58,11 +67,157 @@ body{
     border-radius: 10px;
     display: block;
     text-decoration: none;
-    text-shadow: #222;
     }
+
     .header__btn:hover {
-       background-position: right center; /* change the direction of the change here */
+   background-position: right center; /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
     }
-    
+    /* /HEADER STYLES END */
+    .lets-go {
+        font-family: 'Pacifico', cursive;
+        text-align: center;
+        color: #2BC0E4;
+        background-color: rgb(255, 211, 144);
+        margin: 3px;
+    }
+
+
+    /* MAIN STYLES */
+    .main {
+        text-align: center;
+        background-image: url(../images/main__img.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed ;
+        background-position: center;
+        background-size: cover;
+        }
+        .main_div {
+        }
+        .main_title {
+            color:rgb(17, 35, 233);
+        }
+        .main_text {
+        }
+        /* /MAIN STYLES END */
+        .chiptalar {
+        font-family: 'Pacifico', cursive;
+        text-align: center;
+        color: #2BC0E4;
+        background-color: rgb(255, 211, 144);
+        margin: 3px;
+        }
+        /* HERO STYLES */
+        .hero {
+        }
+        .hero__div {
+            background-image: url('../images/commentator.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .hero_title {
+            font-family: 'Pacifico', cursive;
+            text-align: center;
+            color: #2BC0E4;
+            background-color: rgb(255, 211, 144);
+            margin: 3px;
+        }
+        .hero_text {
+        }
+        /* /HERO STYLES END */
+
+
+        /* FOOTER STYLES */
+        .footer{
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../images/airoplane.jpg);
+        text-align: center;
+        }
+        .footer__title {
+        font-size: 42px;
+        font-family: 'Paytone One', sans-serif;
+        margin-bottom: 30px;
+        color: #fff;
+        }
+        
+        .footer__title-two {
+        margin-bottom: 25px;
+        }
+        .hero__text {
+        margin-left: 14px;
+        margin-right: 14px;
+        margin-bottom: 30px;
+        }
+        
+        .footer__btn{background-image: linear-gradient(to right, #F7971E 0%, #FFD200  51%, #F7971E  100%)}
+        .footer__btn{
+        font-family: 'Shippori Antique B1', sans-serif;
+        text-decoration: none;
+        margin: 10px;
+        padding: 15px 15px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+        }
+        .footer__btn:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+        }
+        /* /FOOTER STYLES END */
+        
+        
+        /* REGISTER STYLES */
+        .register_title {
+            margin: 4px;
+            text-align: center;
+            font-family: 'Shippori Antique B1', sans-serif;
+            background-image: radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgba(83,138,214,1) 0%, rgba(134,231,214,1) 90% );;
+        }
+        .register__register {
+        margin: 200px;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 100px;
+        background-image: url('../images/beach.jpg');
+        color: rgb(29, 25, 25);
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        font-family: 'Paytone One', sans-serif;
+        }
+        
+        .register__register-btn {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+        .register__register-btn {
+        margin: 10px;
+        padding: 15px 15px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+        text-decoration: none;
+        }
+
+        .register__reegister-btn:hover {
+           background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+        }
+        
+        
+        /* /REGISTER STYLES END */
